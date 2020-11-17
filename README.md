@@ -5,14 +5,24 @@ This is the code for the ECCV2020 paper "Semi-Supervised Crowd Counting via Self
   1.1 Datasets can Found in:
   
    [ShanghaiTech](https://pan.baidu.com/s/1nuAYslz/)
+   
+   
    [UCF-QNRF]( https://drive.google.com/open?id=1fLZdOsOXlv2muNB_bXEW6t-IS9MRziL6)
+   
+   
    [WorldExpo10]( http://www.ee.cuhk.edu.hk/~xgwang/expo.html)
     
   1.2 Setting Runing Environment：
   
   Ubuntu 16.04
+  
+  
   Cuda 8.0
+  
+  
   python 2.7
+  
+  
   Pytorch 0.4.1
   
 ## Data Processing:
@@ -27,8 +37,12 @@ This is the code for the ECCV2020 paper "Semi-Supervised Crowd Counting via Self
   Notice the path of all files in these codes, you should modify them to suit your condition.
   
  ## Some Pre-trained Model in This Paper:
- ShanghaiTech PartA:link：https://pan.baidu.com/s/1uYBtd9O0LfPUxveDmc7WQA    password/code：2333 
- UCF-QNRF:link：https://pan.baidu.com/s/1TWsoIQZJBrGeMPnqlSQYCg  password/code：2333 
+ ShanghaiTech PartA:[BaiduDisk](https://pan.baidu.com/s/1uYBtd9O0LfPUxveDmc7WQA )   password/code：2333 
+ 
+ 
+ UCF-QNRF:[Baidudisk](https://pan.baidu.com/s/1TWsoIQZJBrGeMPnqlSQYCg)  password/code：2333 
+ 
+ 
  
  If you find the IRAST is useful, please cite our paper. Thank you!
  
