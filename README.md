@@ -1,12 +1,12 @@
 # IRAST
 This is the code for the ECCV2020 paper "Semi-Supervised Crowd Counting via Self-Training on Surrogate Tasks" (Pytorch version)
 
-1) Prepare 
+## Prepare 
   1.1 Datasets can Found in:
   
-   ShanghaiTech https://pan.baidu.com/s/1nuAYslz
-   UCF-QNRF https://drive.google.com/open?id=1fLZdOsOXlv2muNB_bXEW6t-IS9MRziL6
-   WorldExpo10 http://www.ee.cuhk.edu.hk/~xgwang/expo.html
+   [ShanghaiTech](https://pan.baidu.com/s/1nuAYslz/)
+   [UCF-QNRF]( https://drive.google.com/open?id=1fLZdOsOXlv2muNB_bXEW6t-IS9MRziL6)
+   [WorldExpo10]( http://www.ee.cuhk.edu.hk/~xgwang/expo.html)
     
   1.2 Setting Runing Environment：
   
@@ -15,18 +15,18 @@ This is the code for the ECCV2020 paper "Semi-Supervised Crowd Counting via Self
   python 2.7
   Pytorch 0.4.1
   
-2) Data Processing:
+## Data Processing:
   follow the file "make_dataset.py" to produce the ground-truth density map (in this work, most images are unlabeled)
   
-3) Training the model:
+## Training the model:
   python train.py train.json val.json 0 0 to train your model
   
-4) Testing the model:
+## Testing the model:
   python val.py 
   
   Notice the path of all files in these codes, you should modify them to suit your condition.
   
- 5) some pre-trained model in this paper:
+ ## Some Pre-trained Model in This Paper:
  ShanghaiTech PartA:link：https://pan.baidu.com/s/1uYBtd9O0LfPUxveDmc7WQA    password/code：2333 
  UCF-QNRF:link：https://pan.baidu.com/s/1TWsoIQZJBrGeMPnqlSQYCg  password/code：2333 
  
