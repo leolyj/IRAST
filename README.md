@@ -45,11 +45,12 @@ This is the code for the ECCV2020 paper "Semi-Supervised Crowd Counting via Self
  
  
  If you find the IRAST is useful, please cite our paper. Thank you!
- 
+ ```
  @inproceedings{liu2020semi,
   title={Semi-Supervised Crowd Counting via Self-Training on Surrogate Tasks},
   author={Liu, Yan and Liu, Lingqiao and Wang, Peng and Zhang, Pingping and Lei, Yinjie},
   booktitle={European Conference on Computer Vision},
   year={2020}
 }
+```
  
